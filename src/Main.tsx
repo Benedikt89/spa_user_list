@@ -6,6 +6,7 @@ import {selectErrorByKey, selectFetchingByKey} from "./redux/app/selectors";
 import {AppStateType} from "./redux/store";
 import Header from "./components/Header/Header";
 import {fetchUsers} from "./redux/users/actions";
+import StarsPage from "./components/StarsPage";
 
 interface I_props {
 }
@@ -54,6 +55,12 @@ class Main extends Component<I_MainProps, I_MainState> {
                 path="/users"
                 component={() => (
                   <UserList userIds={usersIds}/>
+                )}
+              />
+              <Route
+                path="/stars"
+                component={() => (
+                  <StarsPage />
                 )}
               />
 

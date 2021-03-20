@@ -3,8 +3,11 @@ import * as React from "react";
 import {Button, Form, Input} from 'antd';
 import './common/common.css';
 import {newUserId} from "../redux/users/reducer";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {onUserUpdate} from "../redux/users/actions";
+import {useState} from "react";
+import {selectFetchingByKey} from "../redux/app/selectors";
+import {AppStateType} from "../redux/store";
 
 interface UserFormProps {
   user?: I_user
@@ -12,6 +15,9 @@ interface UserFormProps {
 
 const UserForm: React.FC<UserFormProps> = ({user}) => {
   const dispatch = useDispatch();
+  const {loading} = useSelector((state: AppStateType) => ({
+    loading: selectFetchingByKey(state, 'user')
+  }));
 
   const onFinish = (values: any) => {
     dispatch(onUserUpdate({
@@ -47,7 +53,7 @@ const UserForm: React.FC<UserFormProps> = ({user}) => {
       </Form.Item>
 
       <Form.Item>
-        <Button type="primary" htmlType="submit">
+        <Button type="primary" htmlType="submit" loading={loading}>
           Submit
         </Button>
       </Form.Item>

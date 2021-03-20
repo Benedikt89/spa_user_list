@@ -1,41 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe907df0-6418-4ed8-856a-795bce459d9f" name="Default Changelist" comment="done without stars on canvas">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/ErrorMessage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/userList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/app/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/app/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/app/selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users/fetchHandler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users/selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/app-types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/typeHelpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/user-types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fe907df0-6418-4ed8-856a-795bce459d9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/StarsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserForm.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +20,7 @@
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +58,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.predeploy">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/functions/package.json" />
       <command value="run" />
@@ -119,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.lint" />
@@ -135,8 +118,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616244595047</updated>
-      <workItem from="1616244596575" duration="21438000" />
+      <workItem from="1616244596575" duration="31044000" />
     </task>
+    <task id="LOCAL-00001" summary="done without stars on canvas">
+      <created>1616273985396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616273985396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
